@@ -47,7 +47,7 @@ namespace sjtu {
          */
 		class const_iterator;
 		class iterator {
-			friend vector<T>;
+			friend class vector<T>;
 		private:
 			/**
              * TODO add data members
@@ -160,7 +160,7 @@ namespace sjtu {
          * has same function as iterator, just for a const object.
          */
 		class const_iterator {
-			friend vector<T>;
+			friend class vector<T>;
 		private:
 			/**
              * TODO add data members
