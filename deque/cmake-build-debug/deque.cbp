@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="deque"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/lck/Desktop/Code/STL/deque/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/lck/Desktop/Code/STL/deque/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/lck/Desktop/Code/STL/deque/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="deque">
+				<Option output="/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/deque" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lck/Desktop/Code/STL/deque/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lck/Desktop/Code/STL/deque/."/>
+					<Add directory="/Users/lck/Desktop/Code/STL/deque/data"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 deque"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="deque/fast">
+				<Option output="/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/deque" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lck/Desktop/Code/STL/deque/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lck/Desktop/Code/STL/deque/."/>
+					<Add directory="/Users/lck/Desktop/Code/STL/deque/data"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 deque/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lck/Desktop/Code/STL/deque/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/lck/Desktop/Code/STL/deque/data/class-bint.hpp">
+			<Option target="deque"/>
+		</Unit>
+		<Unit filename="/Users/lck/Desktop/Code/STL/deque/data/class-integer.hpp">
+			<Option target="deque"/>
+		</Unit>
+		<Unit filename="/Users/lck/Desktop/Code/STL/deque/data/class-matrix.hpp">
+			<Option target="deque"/>
+		</Unit>
+		<Unit filename="/Users/lck/Desktop/Code/STL/deque/data/six/code.cpp">
+			<Option target="deque"/>
+		</Unit>
+		<Unit filename="/Users/lck/Desktop/Code/STL/deque/deque.hpp">
+			<Option target="deque"/>
+		</Unit>
+		<Unit filename="/Users/lck/Desktop/Code/STL/deque/exceptions.hpp">
+			<Option target="deque"/>
+		</Unit>
+		<Unit filename="/Users/lck/Desktop/Code/STL/deque/utility.hpp">
+			<Option target="deque"/>
+		</Unit>
+		<Unit filename="/Users/lck/Desktop/Code/STL/deque/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

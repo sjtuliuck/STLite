@@ -345,7 +345,7 @@ namespace sjtu {
                     return false;
 
                 return (nod == rhs.nod && idx == rhs.idx) ||
-                       (nod->next == NULL && rhs.nod->next == NULL && rhs.idx == rhs.nod->size && idx == nod->size) ||
+                       (nod->next == NULL && rhs.nod->next == NULL) ||
                        (nod->next == rhs.nod && idx == nod->size && rhs.nod->next == NULL);
             }
 
@@ -354,7 +354,7 @@ namespace sjtu {
                     return false;
 
                 return (nod == rhs.nod && idx == rhs.idx) ||
-                       (nod->next == NULL && rhs.nod->next == NULL && rhs.idx == rhs.nod->size && idx == nod->size) ||
+                       (nod->next == NULL && rhs.nod->next == NULL) ||
                        (nod->next == rhs.nod && idx == nod->size && rhs.nod->next == NULL);
             }
 
@@ -547,7 +547,7 @@ namespace sjtu {
                     return false;
 
                 return (nod == rhs.nod && idx == rhs.idx) ||
-                       (nod->next == NULL && rhs.nod->next == NULL && rhs.idx == rhs.nod->size && idx == nod->size) ||
+                       (nod->next == NULL && rhs.nod->next == NULL) ||
                        (nod->next == rhs.nod && idx == nod->size && rhs.nod->next == NULL);
             }
 
@@ -556,7 +556,7 @@ namespace sjtu {
                     return false;
 
                 return (nod == rhs.nod && idx == rhs.idx) ||
-                       (nod->next == NULL && rhs.nod->next == NULL && rhs.idx == rhs.nod->size && idx == nod->size) ||
+                       (nod->next == NULL && rhs.nod->next == NULL) ||
                        (nod->next == rhs.nod && idx == nod->size && rhs.nod->next == NULL);
             }
 
@@ -804,11 +804,6 @@ namespace sjtu {
             while (pos.idx < 0) {
                 pos.nod = pos.nod->prev;
                 pos.idx += pos.nod->size;
-            }
-
-            if (pos.idx == pos.nod->size) {
-                pos.idx = 0;
-                pos.nod = pos.nod->next;
             }
 
             adjust(pos.nod);

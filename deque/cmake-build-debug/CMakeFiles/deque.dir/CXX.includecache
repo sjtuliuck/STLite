@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././deque.hpp
+exceptions.hpp
+.././exceptions.hpp
+cstddef
+-
+
+.././exceptions.hpp
+cstddef
+-
+cstring
+-
+string
+-
+
+/Users/lck/Desktop/Code/STL/deque/data/six/code.cpp
+iostream
+-
+cstdio
+-
+cstring
+-
+queue
+-
+cstdlib
+-
+ctime
+-
+cmath
+-
+deque.hpp
+/Users/lck/Desktop/Code/STL/deque/data/six/deque.hpp
+exceptions.hpp
+/Users/lck/Desktop/Code/STL/deque/data/six/exceptions.hpp
+
