@@ -100,7 +100,7 @@ namespace sjtu {
             if (node->size < blockSize / 2) {
                 merge(node);
             }
-            else if (node->size >= blockSize) {
+            else if (node->size > blockSize) {
                 split(node);
             }
         }

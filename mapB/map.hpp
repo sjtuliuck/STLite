@@ -216,7 +216,6 @@ private:
         makeEmpty(t->rc);
 
         delete t;
-        t = NULL;
     }
 
 public:
